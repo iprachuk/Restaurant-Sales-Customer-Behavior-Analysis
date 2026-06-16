@@ -28,9 +28,7 @@
 ```
 Restaurant-Analysis/
 ├── README.md                 # Цей файл
-├── *.ipynb                  # Jupyter Notebook файли з аналізом
-├── data/                    # Папка з вихідними даними (якщо існує)
-└── images/                  # Візуалізації та графіки (якщо існує)
+├── *.ipynb                  # Jupyter Notebook файли з аналізом та графіками
 ```
 
 ## 📈 Основні етапи аналізу
@@ -49,30 +47,3 @@ Restaurant-Analysis/
 - **restaurant_orderitem** - деталі кожного замовленого товару
 
 Ці таблиці об'єднуються в єдиний набір даних для комплексного аналізу.
-
-## 🚀 Як використовувати
-
-1. Клонуйте репозиторій:
-```bash
-git clone https://github.com/iprachuk/Restaurant-Analysis.git
-cd Restaurant-Analysis
-```
-
-2. Встановіть необхідні залежності:
-```bash
-pip install jupyter pandas numpy matplotlib seaborn scikit-learn
-```
-
-3. Запустіть Jupyter Notebook:
-```bash
-jupyter notebook
-```
-
-4. Відкрийте потрібний `.ipynb` файл та виконайте комірки послідовно
-
-## 📝 Вимоги
-
-- Python 3.7+
-- Jupyter Notebook
-- SQLite3 (зазвичай вже встановлена з Python)
-- Всі залежності зазначені в `requirements.txt` (якщо доступно)
